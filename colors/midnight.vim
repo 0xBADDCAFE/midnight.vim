@@ -1,8 +1,11 @@
-" Vim color file
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last Change:	2006 Apr 14
+" Vim color file based evening.vim
+" Maintainer:	0xBADDCAFE <http://github.com/0xBADDCAFE>
+" Original Maintainer:	Bram Moolenaar <Bram@vim.org>
+" Last Change:	2013 Jul 03
 
 " This color scheme uses a dark grey background.
+" And uses default background, dark gray background LineNr
+" on cterm.
 
 " First remove all existing highlighting.
 set background=dark
