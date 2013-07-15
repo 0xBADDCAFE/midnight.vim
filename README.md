@@ -1,9 +1,16 @@
 midnight.vim
 ============
 
-colorscheme for vim(cterm only)
+Colorscheme for vim(cterm only) based on evening colorscheme.
 
-## screenshots
+- Have lineNr background color
+- Black background color, not grey.
+- Complete popup color is not vivid pink.
+
+
+screenshots
+-----------
+
 
 - mintty
 
