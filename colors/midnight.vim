@@ -47,6 +47,11 @@ hi DiffChange term=bold ctermbg=DarkMagenta guibg=DarkMagenta
 hi DiffDelete term=bold ctermfg=Blue ctermbg=DarkCyan gui=bold guifg=Blue guibg=DarkCyan
 hi CursorColumn term=reverse ctermbg=Black guibg=grey40
 hi CursorLine term=underline cterm=underline guibg=grey40
+" complete menu highlighting
+hi Pmenu          ctermfg=Black ctermbg=LightBlue guibg=LightBlue
+hi PmenuSel       ctermfg=LightBlue ctermbg=DarkGrey guibg=DarkGrey
+hi PmenuSbar      ctermbg=Black guibg=Grey
+hi PmenuThumb     ctermbg=DarkGrey guibg=White
 
 " Groups for syntax highlighting
 hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
