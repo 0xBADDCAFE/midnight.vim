@@ -14,6 +14,10 @@ if exists("syntax_on")
   syntax reset
 endif
 
+" Options.
+if !exists('g:midnight_LineNr_bg')
+  let g:midnight_LineNr_bg = 1
+endif
 let colors_name = "midnight"
 
 hi Normal guifg=White guibg=grey20
@@ -31,7 +35,6 @@ hi DiffText term=reverse cterm=bold ctermbg=Red gui=bold guibg=Red
 hi Cursor guibg=Green guifg=Black
 hi lCursor guibg=Cyan guifg=Black
 hi Directory term=bold ctermfg=LightCyan guifg=Cyan
-hi LineNr term=underline ctermfg=Black ctermbg=Grey guifg=Yellow
 hi MoreMsg term=bold ctermfg=LightGreen gui=bold guifg=SeaGreen
 hi NonText term=bold ctermfg=LightBlue gui=bold guifg=LightBlue guibg=grey30
 hi Question term=standout ctermfg=LightGreen gui=bold guifg=Green
@@ -52,6 +55,12 @@ hi Pmenu          ctermfg=Black ctermbg=LightBlue guibg=LightBlue
 hi PmenuSel       ctermfg=LightBlue ctermbg=DarkGrey guibg=DarkGrey
 hi PmenuSbar      ctermbg=Black guibg=Grey
 hi PmenuThumb     ctermbg=DarkGrey guibg=White
+" Configuable highlighting.
+if g:midnight_LineNr_bg
+  hi LineNr term=underline ctermfg=Black ctermbg=Grey guifg=Yellow
+else
+  hi LineNr term=underline ctermfg=White guifg=Yellow
+endif
 
 " Groups for syntax highlighting
 hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
