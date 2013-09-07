@@ -18,11 +18,10 @@ let g:midnight_LineNr_bg=0
 Screenshots
 -----------
 
+- mintty(glass)
+
+![glass](https://raw.github.com/wiki/0xBADDCAFE/midnight.vim/images/mintty_glass.png)
 
 - mintty
 
 ![mintty](https://raw.github.com/wiki/0xBADDCAFE/midnight.vim/images/mintty.png)
-
-- mintty(glass)
-
-![glass](https://raw.github.com/wiki/0xBADDCAFE/midnight.vim/images/mintty_glass.png)
