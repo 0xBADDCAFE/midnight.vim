@@ -3,12 +3,22 @@ midnight.vim
 
 Colorscheme for vim(cterm only) based on evening colorscheme.
 
-- Have lineNr background color
+- Have lineNr background color(configuable by option).
 - Black background color, not grey.
 - Complete popup color is not vivid pink.
 
+Options
+-------
 
-screenshots
+```VimL
+
+" Enable/Disable line number background color(Default:Enable[1]).
+
+let g:midnight_LineNr_bg=0
+
+```
+
+Screenshots
 -----------
 
 
