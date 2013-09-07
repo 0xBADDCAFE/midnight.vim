@@ -11,10 +11,8 @@ Options
 -------
 
 ```VimL
-
 " Enable/Disable line number background color(Default:Enable[1]).
 let g:midnight_LineNr_bg=0
-
 ```
 
 Screenshots
