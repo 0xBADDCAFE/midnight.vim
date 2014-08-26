@@ -58,8 +58,10 @@ hi PmenuThumb     ctermbg=DarkGrey guibg=White
 " Configuable highlighting.
 if g:midnight_LineNr_bg
   hi LineNr term=underline ctermfg=Black ctermbg=Grey guifg=Yellow
+  hi CursorLineNr term=bold ctermfg=Yellow ctermbg=Grey gui=bold guifg=Yellow
 else
   hi LineNr term=underline ctermfg=White guifg=Yellow
+  hi CursorLineNr term=bold ctermfg=Yellow gui=bold guifg=Yellow
 endif
 
 " Groups for syntax highlighting
