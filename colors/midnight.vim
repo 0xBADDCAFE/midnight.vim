@@ -71,5 +71,6 @@ if &t_Co > 8
   hi Statement term=bold cterm=bold ctermfg=Yellow guifg=#ffff60 gui=bold
 endif
 hi Ignore ctermfg=DarkGrey guifg=grey20
+hi MatchParen ctermfg=DarkCyan guifg=DarkCyan ctermbg=NONE guibg=NONE
 
 " vim: sw=2
